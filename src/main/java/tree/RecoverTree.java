@@ -5,5 +5,7 @@ package main.java.tree;
  * @date 2022/7/17 16:56
  */
 public class RecoverTree {
+    public static void main(String[] args) {
 
+    }
 }
