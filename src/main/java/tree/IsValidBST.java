@@ -31,5 +31,6 @@ public class IsValidBST {
     public static void main(String[] args) {
         TreeNode root = PopulateParamUtil.populateIsValidBSTParam();
         System.out.println(instance.isValidBST(root));
+        System.out.println("test");
     }
 }
