@@ -41,4 +41,17 @@ public class PopulateParamUtil {
         node3.right = node5;
         return root;
     }
+
+    /**
+     * 99恢复二叉搜索树
+     */
+    public static TreeNode populateRecoverTree() {
+        TreeNode root = new TreeNode(3);
+        TreeNode root2 = new TreeNode(1);
+        TreeNode root3 = new TreeNode(4);
+        root.left = root2;
+        root.right = root3;
+        root3.left = new TreeNode(2);
+        return root;
+    }
 }
